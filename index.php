@@ -83,6 +83,41 @@
       </div>
     </div>
 
+    <footer>
+      <div class="container-footer">
+        <div class="footer-sx">
+          <ul>
+            <li>
+              <a href="#">Google</a>
+            </li>
+            <li>
+              <a href="#">Tutto su Google</a>
+            </li>
+            <li>
+              <a href="#">Privacy</a>
+            </li>
+            <li>
+              <a href="#">Termini</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-dx">
+          <div class="container-foot-dx">
+            <img src="img/logo.png" alt="">
+            <select class="lingua" name="Italiano">
+              <option value="it">Italiano</option>
+                <option value="de">Deutsch</option>
+                  <option value="en">English</option>
+                    <option value="fr">Français</option>
+            </select>
+          </div>
+
+        </div>
+
+      </div>
+
+    </footer>
+
 
 
   </body>
