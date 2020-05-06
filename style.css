@@ -10,13 +10,13 @@ body {
 }
 
 .container-nav {
-  height: 140px;
+  height: 70px;
   width: 100%;
   /* debug */
   border:solid black 1px;
 }
 .container-up {
-  height: 70px;
+  height: 40px;
   width: 90%;
   margin: 0 auto;
   display: flex;
@@ -49,12 +49,46 @@ body {
 }
 
 .container-down {
-  height: 70px;
+  height: 30px;
   width: 90%;
   margin: 0 auto;
   display: flex;
   /* debug */
   border:solid green 1px;
+}
+.sx {
+  height: 30px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  /* debug */
+  border:solid red 1px;
+}
+.sx li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 35px;
+}
+.sx a {
+  color: #5f6368;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.dx {
+  height: 30px;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  /* debug */
+  border:solid red 1px;
+}
+
+.dx h2 {
+  color: #5f6368;
+  font-size: 15px;
 }
 
 
@@ -66,18 +100,24 @@ body {
 
 
 .centrale {
-  height: 900px;
+  height: auto;
   width: 100%;
   /* debug */
   border: solid grey 1px;
 }
 .centrale-faq {
-  height: 900px;
+  height: auto;
   width: 80%;
   margin: 0 auto;
   /* debug */
   border: solid grey 1px;
 }
+.faq {
+  margin-top: 50px;
+}
 .faq h1 {
-  text-align: center;
+ line-height: 35px;
+}
+.faq p {
+ line-height: 35px;
 }

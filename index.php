@@ -47,7 +47,28 @@
 
       </div>
       <div class="container-down">
-
+        <div class="sx">
+          <ul>
+            <li>
+              <a href="#">Introduzione</a>
+            </li>
+            <li>
+              <a href="#">Norme sulla privacy</a>
+            </li>
+            <li>
+              <a href="#">Termini di servizio</a>
+            </li>
+            <li>
+              <a href="#">Tecnologie</a>
+            </li>
+            <li>
+              <a href="#">Domande frequenti</a>
+            </li>
+          </ul>
+        </div>
+        <div class="dx">
+          <h2>Account Google</h2>
+        </div>
       </div>
 
     </div>
@@ -55,8 +76,8 @@
       <div class="centrale-faq">
         <?php foreach ($faq as $intro) { ?>
           <div class="faq">
-            <h1><?php echo $intro["domanda"]; ?></h1>
-            <p><?php echo $intro["risposta"]; ?></p>
+            <h1><?php echo $intro["domanda"]; ?></h1><br>
+            <p><?php echo $intro["risposta"]; ?></p><br>
           </div>
         <?php } ?>
       </div>
