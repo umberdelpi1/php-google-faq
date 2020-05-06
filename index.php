@@ -35,14 +35,14 @@
   </head>
 
   <body>
-  <div class="faq">
-    <?php
-      foreach ($faq as $intro) {
-        echo '<h1>' . $intro["domanda"] . "</h1>" . "<br>";
-        echo '<p>' . $intro["risposta"] . "</p>" . "<br>";
-      }
-    ?>
-  </div>
+
+    <?php foreach ($faq as $intro) { ?>
+      <div class="faq">
+        <h1><?php echo $intro["domanda"]; ?></h1>
+        <p><?php echo $intro["risposta"]; ?></p>
+      </div>
+    <?php } ?>
+
 
   </body>
 </html>
