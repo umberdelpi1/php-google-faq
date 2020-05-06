@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>php-google-faq</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <!-- INIZIO ARRAY FAQ -->
     <?php
     $faq = [
@@ -35,13 +36,32 @@
   </head>
 
   <body>
+    <div class="container-nav">
+      <div class="container-up">
+        <div class="logo-google">
+          <img src="img/google.png" alt="">
+        </div>
+        <div class="privacy">
+          <h2>Privacy e termini</h2>
+        </div>
 
-    <?php foreach ($faq as $intro) { ?>
-      <div class="faq">
-        <h1><?php echo $intro["domanda"]; ?></h1>
-        <p><?php echo $intro["risposta"]; ?></p>
       </div>
-    <?php } ?>
+      <div class="container-down">
+
+      </div>
+
+    </div>
+    <div class="centrale">
+      <div class="centrale-faq">
+        <?php foreach ($faq as $intro) { ?>
+          <div class="faq">
+            <h1><?php echo $intro["domanda"]; ?></h1>
+            <p><?php echo $intro["risposta"]; ?></p>
+          </div>
+        <?php } ?>
+      </div>
+    </div>
+
 
 
   </body>

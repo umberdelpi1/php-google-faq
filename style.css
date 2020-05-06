@@ -1,3 +1,83 @@
-h1 {
-  background-color: green;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", arial, sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container-nav {
+  height: 140px;
+  width: 100%;
+  /* debug */
+  border:solid black 1px;
+}
+.container-up {
+  height: 70px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  /* debug */
+  border:solid green 1px;
+}
+.logo-google {
+  height: 40px;
+  width: 6%;
+  display: flex;
+  align-items: center;
+  /* debug */
+  border:solid red 1px;
+}
+.logo-google img {
+  height: 30px;
+  width: 80px;
+}
+.privacy {
+  height: 40px;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  /* debug */
+  border:solid red 1px;
+}
+.privacy h2 {
+  color: #5f6368;
+  font-size: 20px;
+}
+
+.container-down {
+  height: 70px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  /* debug */
+  border:solid green 1px;
+}
+
+
+
+
+
+
+
+
+
+.centrale {
+  height: 900px;
+  width: 100%;
+  /* debug */
+  border: solid grey 1px;
+}
+.centrale-faq {
+  height: 900px;
+  width: 80%;
+  margin: 0 auto;
+  /* debug */
+  border: solid grey 1px;
+}
+.faq h1 {
+  text-align: center;
 }
