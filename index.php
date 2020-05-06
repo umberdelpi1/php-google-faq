@@ -44,7 +44,6 @@
         <div class="privacy">
           <h2>Privacy e termini</h2>
         </div>
-
       </div>
       <div class="container-down">
         <div class="sx">
@@ -70,7 +69,6 @@
           <h2>Account Google</h2>
         </div>
       </div>
-
     </div>
     <div class="centrale">
       <div class="centrale-faq">
@@ -82,7 +80,6 @@
         <?php } ?>
       </div>
     </div>
-
     <footer>
       <div class="container-footer">
         <div class="footer-sx">
@@ -111,14 +108,8 @@
                     <option value="fr">Français</option>
             </select>
           </div>
-
         </div>
-
       </div>
-
     </footer>
-
-
-
   </body>
 </html>
